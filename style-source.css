@@ -1,0 +1,12 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+h3{
+    @apply uppercase text-gray-900 text-xl font bold tracking-wider py-3;
+}
+p{
+    @apply text-gray-700 text-base text-justify;
+}
